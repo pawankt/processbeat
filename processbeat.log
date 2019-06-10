@@ -1,0 +1,2333 @@
+Running ps command [ kibana ]
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+exec: "ps aux | grep -v \"color=auto\" | awk '{ print \"USER=\"$1,\"PID=\"$2,\"CPU%=\"$3,\"MEM%=\"$4,\"VIRT=\"$5,\"RES=\"$6,\"STARTDATE=\"$9,$10,\"COMMAND=\"$11$12$13$14$15$16$17$18$19$20 }' | grep -ikibana": executable file not found in $PATH
+Message found: STATUS=UNKNOW
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
+Enter 0 to exit:
+Unrecognized input 
