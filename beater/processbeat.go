@@ -13,7 +13,7 @@ import (
 	"github.com/elastic/beats/libbeat/common"
 	"github.com/elastic/beats/libbeat/logp"
 
-	"github.com/pk-devops/processbeat/config"
+	"github.com/pawankt/processbeat/config"
 )
 
 // Processbeat configuration.
