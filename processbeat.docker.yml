@@ -1,5 +1,8 @@
 processbeat:
-  period: 1s
+  period: 10s
+  process:
+    - kibana
+
 processors:
 - add_cloud_metadata: ~
 
