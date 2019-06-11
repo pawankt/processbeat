@@ -1,5 +1,6 @@
 processbeat
-Copyright 2019 Pavan K Tambabathula
+Copyright 2019 Northwestern Mutual
+Author Pavan K Tambabathula
 
 This product includes software developed by The Apache Software
 Foundation (http://www.apache.org/).

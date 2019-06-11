@@ -4,8 +4,11 @@
 
 processbeat:
   # Defines how often an event is sent to the output
-  period: 1s
-  process: processbeat
+  period: 30s
+  # Define process list to monitor
+  process: 
+    - processbeat
+    - kibana
 
 #================================ General ======================================
 
@@ -1205,7 +1208,7 @@ logging.files:
 #============================= Process Security ================================
 
 # Enable or disable seccomp system call filtering on Linux. Default is enabled.
-#seccomp.enabled: true
+# seccomp.enabled: true
 
 #================================= Migration ==================================
 
