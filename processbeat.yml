@@ -8,12 +8,8 @@ processbeat:
 
   # process to be monitor
   process: 
-    - splunkd
-    - /usr/share/kibana
-    - pavank
-    - systemd
+    - kibana
     - java
-#   - python
 
 fields:
   topic: processbeat
@@ -125,13 +121,6 @@ output.logstash:
 # Sets log level. The default log level is info.
 # Available log levels are: error, warning, info, debug
 #logging.level: debug
-logging.level: debug
-logging.to_files: true
-logging.files:
-  path: /var/log/processbeat
-  name: processbeat
-  keepfiles: 2
-  permissions: 0644
 
 # At debug level, you can selectively enable logging only for some components.
 # To enable all selectors use ["*"]. Examples of other selectors are "beat",
