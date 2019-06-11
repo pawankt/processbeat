@@ -2425,7 +2425,6 @@
     - name: procstatus
       type: long
       message: message_stdout
-      process: processbeat
       required: true
       description: >
         PLEASE UPDATE DOCUMENTATION
