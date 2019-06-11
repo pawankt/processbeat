@@ -9,8 +9,8 @@ processbeat:
 
   # Define process list to monitor
   process: 
-    - processbeat
     - kibana
+    - java
 
 #================================ General ======================================
 
