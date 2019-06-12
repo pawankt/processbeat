@@ -8,8 +8,8 @@
 Summary: Custom Processbeat to get status of defined process list
 Name: processbeat
 Version: 1.1.0
-Release: Build01
-License: NML
+Release: Linux
+License: Self
 Group: System/Monitoring
 Source: %{name}-%{version}-%{release}.tar.gz
 Url: https://www.elastic.co/guide/en/beats/libbeat/master/community-beats.html
