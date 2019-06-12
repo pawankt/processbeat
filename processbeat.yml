@@ -9,12 +9,11 @@ processbeat:
   # process to be monitor
   process: 
     - kibana
-    - java
 
 fields:
   topic: processbeat
-  env: test
   elk_node_type: logstash
+  env: test
 
 #================================ General =====================================
 
@@ -49,8 +48,7 @@ fields:
 # Enable or disable seccomp system call filtering on Linux. Default is enabled.
 seccomp.enabled: false
 
-
-#============================== Kibana =====================================
+#============================== Kibana =========================================
 
 # Starting with Beats version 6.0.0, the dashboards are loaded via the Kibana API.
 # This requires a Kibana endpoint configuration.
@@ -95,9 +93,9 @@ setup.kibana:
   #password: "changeme"
 
 #----------------------------- Logstash output --------------------------------
-#output.logstash:
+output.logstash:
   # The Logstash hosts
-  # hosts: ["localhost:5044"]
+  hosts: ["localhost:5044"]
 
   # Optional SSL. By default is off.
   # List of root certificates for HTTPS server verifications
@@ -120,7 +118,13 @@ setup.kibana:
 #================================ Logging =====================================
 # Sets log level. The default log level is info.
 # Available log levels are: error, warning, info, debug
-#logging.level: debug
+logging.level: warning
+logging.to_files: true
+logging.files:
+  path: /var/log/processbeat
+  name: processbeat
+  keepfiles: 3
+  permissions: 0644
 
 # At debug level, you can selectively enable logging only for some components.
 # To enable all selectors use ["*"]. Examples of other selectors are "beat",

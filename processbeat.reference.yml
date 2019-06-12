@@ -3,14 +3,10 @@
 ############################# Processbeat ######################################
 
 processbeat:
-
   # Defines how often an event is sent to the output
   period: 30s
-
-  # Define process list to monitor
   process: 
-    - kibana
-    - java
+     - kibana
 
 #================================ General ======================================
 
@@ -119,6 +115,10 @@ processbeat:
 # Sets the maximum number of CPUs that can be executing simultaneously. The
 # default is the number of logical CPUs available in the system.
 #max_procs:
+
+# Enable or disable seccomp system call filtering on Linux. Default is enabled.
+# seccomp.enabled: false
+
 
 #================================ Processors ===================================
 
@@ -1210,7 +1210,7 @@ logging.files:
 #============================= Process Security ================================
 
 # Enable or disable seccomp system call filtering on Linux. Default is enabled.
-# seccomp.enabled: true
+#seccomp.enabled: true
 
 #================================= Migration ==================================
 

@@ -2,7 +2,6 @@ processbeat:
   period: 30s
   process:
     - kibana
-    - java
 
 processors:
 - add_cloud_metadata: ~

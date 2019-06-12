@@ -2424,7 +2424,8 @@
   fields:
     - name: procstatus
       type: long
+      format: string
       message: message_stdout
       required: true
       description: >
-        PLEASE UPDATE DOCUMENTATION
+        Process status.

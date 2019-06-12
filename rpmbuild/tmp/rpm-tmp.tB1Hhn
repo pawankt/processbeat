@@ -1,0 +1,38 @@
+#!/bin/sh
+
+  RPM_SOURCE_DIR="/home/tam0169/rpmbuild/SOURCES"
+  RPM_BUILD_DIR="/home/tam0169/rpmbuild/BUILD"
+  RPM_OPT_FLAGS="-O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches   -m64 -mtune=generic"
+  RPM_LD_FLAGS="-Wl,-z,relro "
+  RPM_ARCH="x86_64"
+  RPM_OS="linux"
+  export RPM_SOURCE_DIR RPM_BUILD_DIR RPM_OPT_FLAGS RPM_LD_FLAGS RPM_ARCH RPM_OS
+  RPM_DOC_DIR="/usr/share/doc"
+  export RPM_DOC_DIR
+  RPM_PACKAGE_NAME="processbeat"
+  RPM_PACKAGE_VERSION="1.1.0"
+  RPM_PACKAGE_RELEASE="Build01"
+  export RPM_PACKAGE_NAME RPM_PACKAGE_VERSION RPM_PACKAGE_RELEASE
+  LANG=C
+  export LANG
+  unset CDPATH DISPLAY ||:
+  RPM_BUILD_ROOT="/home/tam0169/rpmbuild/BUILDROOT/processbeat-1.1.0-Build01.x86_64"
+  export RPM_BUILD_ROOT
+  
+  PKG_CONFIG_PATH="${PKG_CONFIG_PATH}:/usr/lib64/pkgconfig:/usr/share/pkgconfig"
+  export PKG_CONFIG_PATH
+  
+  set -x
+  umask 022
+  cd "/home/tam0169/rpmbuild/BUILD"
+cd '/home/tam0169/rpmbuild/BUILD'
+rm -rf 'processbeat-1.1.0-Build01'
+/usr/bin/gzip -dc '/home/tam0169/rpmbuild/SOURCES/processbeat-1.1.0-Build01.tar.gz' | /usr/bin/tar -xf - 
+STATUS=$?
+if [ $STATUS -ne 0 ]; then
+  exit $STATUS
+fi
+cd 'processbeat-1.1.0-Build01'
+/usr/bin/chmod -Rf a+rX,u+w,g-w,o-w .
+
+exit 0
