@@ -7,9 +7,9 @@
 
 Summary: Custom Processbeat to get status of defined process list
 Name: processbeat
-Version: 1.1.0
+Version: 1.2.0
 Release: Linux
-License: Self
+License: DEVOPS
 Group: System/Monitoring
 Source: %{name}-%{version}-%{release}.tar.gz
 Url: https://www.elastic.co/guide/en/beats/libbeat/master/community-beats.html
@@ -37,6 +37,10 @@ chmod +x %{buildroot}%{_bindir}/processbeat
 %{__install} -d -m 755 %{buildroot}/usr/share/%{name}/bin
 mv processbeat %{buildroot}/usr/share/%{name}/bin
 
+## Add Processbeat service to /etc/init.d
+%{__install} -d -m 755 %{buildroot}/etc/init.d
+mv processbeat.service %{buildroot}/etc/init.d/processbeat
+
 ## Add Processbeat modules
 #%{__install} -d -m 755 %{buildroot}/usr/share/%{name}/module
 #cp -rp module/* %{buildroot}/usr/share/%{name}/module/
@@ -54,6 +58,8 @@ mv processbeat %{buildroot}/usr/share/%{name}/bin
 %{_bindir}/%{name}
 %dir /etc/%{name}/
 %config(noreplace) /etc/%{name}/*
+%dir /etc/init.d
+%doc /etc/init.d/*
 %dir /usr/share/%{name}
 %doc /usr/share/%{name}/*
 %dir /var/lib/%{name}

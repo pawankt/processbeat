@@ -1,0 +1,57 @@
+#!/bin/sh
+
+  RPM_SOURCE_DIR="/home/tam0169/rpmbuild/SOURCES"
+  RPM_BUILD_DIR="/home/tam0169/rpmbuild/BUILD"
+  RPM_OPT_FLAGS="-O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches   -m64 -mtune=generic"
+  RPM_LD_FLAGS="-Wl,-z,relro "
+  RPM_ARCH="x86_64"
+  RPM_OS="linux"
+  export RPM_SOURCE_DIR RPM_BUILD_DIR RPM_OPT_FLAGS RPM_LD_FLAGS RPM_ARCH RPM_OS
+  RPM_DOC_DIR="/usr/share/doc"
+  export RPM_DOC_DIR
+  RPM_PACKAGE_NAME="processbeat"
+  RPM_PACKAGE_VERSION="1.2.0"
+  RPM_PACKAGE_RELEASE="Linux"
+  export RPM_PACKAGE_NAME RPM_PACKAGE_VERSION RPM_PACKAGE_RELEASE
+  LANG=C
+  export LANG
+  unset CDPATH DISPLAY ||:
+  RPM_BUILD_ROOT="/home/tam0169/rpmbuild/BUILDROOT/processbeat-1.2.0-Linux.x86_64"
+  export RPM_BUILD_ROOT
+  
+  PKG_CONFIG_PATH="${PKG_CONFIG_PATH}:/usr/lib64/pkgconfig:/usr/share/pkgconfig"
+  export PKG_CONFIG_PATH
+  
+  set -x
+  umask 022
+  cd "/home/tam0169/rpmbuild/BUILD"
+    [ "$RPM_BUILD_ROOT" != "/" ] && rm -rf "${RPM_BUILD_ROOT}"
+    mkdir -p `dirname "$RPM_BUILD_ROOT"`
+    mkdir "$RPM_BUILD_ROOT"
+
+cd 'processbeat-1.2.0-Linux'
+
+
+## usr
+## Add shell script 
+/usr/bin/install -d -m 755 /home/tam0169/rpmbuild/BUILDROOT/processbeat-1.2.0-Linux.x86_64/usr/bin/
+mv processbeat.sh /home/tam0169/rpmbuild/BUILDROOT/processbeat-1.2.0-Linux.x86_64/usr/bin/processbeat
+chmod +x /home/tam0169/rpmbuild/BUILDROOT/processbeat-1.2.0-Linux.x86_64/usr/bin/processbeat
+
+## Add Processbeat binary to /usr/share
+/usr/bin/install -d -m 755 /home/tam0169/rpmbuild/BUILDROOT/processbeat-1.2.0-Linux.x86_64/usr/share/processbeat/
+/usr/bin/install -d -m 755 /home/tam0169/rpmbuild/BUILDROOT/processbeat-1.2.0-Linux.x86_64/usr/share/processbeat/bin
+mv processbeat /home/tam0169/rpmbuild/BUILDROOT/processbeat-1.2.0-Linux.x86_64/usr/share/processbeat/bin
+mv processbeat.service /home/tam0169/rpmbuild/BUILDROOT/processbeat-1.2.0-Linux.x86_64/etc/init.d/processbeat
+
+## Add Processbeat modules
+#/usr/bin/install -d -m 755 /home/tam0169/rpmbuild/BUILDROOT/processbeat-1.2.0-Linux.x86_64/usr/share/processbeat/module
+#cp -rp module/* /home/tam0169/rpmbuild/BUILDROOT/processbeat-1.2.0-Linux.x86_64/usr/share/processbeat/module/
+
+## etc
+/usr/bin/install -d -m 755 /home/tam0169/rpmbuild/BUILDROOT/processbeat-1.2.0-Linux.x86_64/etc/processbeat/
+/usr/bin/install -m 644 processbeat.yml /home/tam0169/rpmbuild/BUILDROOT/processbeat-1.2.0-Linux.x86_64/etc/processbeat/
+
+## var
+/usr/bin/install -d -m 755 /home/tam0169/rpmbuild/BUILDROOT/processbeat-1.2.0-Linux.x86_64/var/lib/processbeat/
+
