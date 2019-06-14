@@ -5,3 +5,6 @@
 processbeat:
   # Defines how often an event is sent to the output
   period: 30s
+  # process to be monitor
+  process:
+    - kibana
