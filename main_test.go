@@ -6,7 +6,7 @@ import (
 	"flag"
 	"testing"
 
-	"github.com/pk-devops/processbeat/cmd"
+	"github.com/pawankt/processbeat/cmd"
 )
 
 var systemTest *bool

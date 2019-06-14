@@ -2,8 +2,9 @@
   title: processbeat
   description:
   fields:
-    - name: counter
+    - name: message
       type: long
+      format: string
       required: true
       description: >
-        PLEASE UPDATE DOCUMENTATION
+        Process Status.

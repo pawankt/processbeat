@@ -3,9 +3,9 @@ package main
 import (
 	"os"
 
-	"github.com/pk-devops/processbeat/cmd"
+	"github.com/pawankt/processbeat/cmd"
 
-	_ "github.com/pk-devops/processbeat/include"
+	_ "github.com/pawankt/processbeat/include"
 )
 
 func main() {

@@ -1,2 +1,4 @@
 processbeat:
-  period: 1s
+  period: 30s
+  process:
+    - kibana

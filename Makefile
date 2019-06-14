@@ -1,5 +1,5 @@
 BEAT_NAME=processbeat
-BEAT_PATH=github.com/pk-devops/processbeat
+BEAT_PATH=github.com/pawankt/processbeat
 BEAT_GOPATH=$(firstword $(subst :, ,${GOPATH}))
 SYSTEM_TESTS=false
 TEST_ENVIRONMENT=false
