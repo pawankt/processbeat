@@ -1,7 +1,7 @@
 package cmd
 
 import (
-	"github.com/pk-devops/processbeat/beater"
+	"github.com/pawankt/processbeat/beater"
 
 	cmd "github.com/elastic/beats/libbeat/cmd"
 	"github.com/elastic/beats/libbeat/cmd/instance"
