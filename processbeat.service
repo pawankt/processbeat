@@ -21,7 +21,7 @@ export PATH
 pidfile=${PIDFILE-/var/run/processbeat.pid}
 agent=${BEATS_AGENT-/usr/share/processbeat/bin/processbeat}
 #args="-c /etc/processbeat/processbeat.yml -path.home /usr/share/processbeat -path.config /etc/processbeat -path.data /var/lib/processbeat -path.logs /var/log/processbeat"
-args="-c /etc/processbeat/processbeat.yml -d -e \"*\" "
+args="-c /etc/processbeat/processbeat.yml -e "
 test_args="-e test config"
 beat_user="${BEAT_USER:-root}"
 wrapper="/usr/share/processbeat/bin/processbeat"
