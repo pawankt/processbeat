@@ -1,115 +1,164 @@
-#!/bin/bash
-#
-# processbeat          processbeat shipper
-#
-# chkconfig: 2345 98 02
-# description: Starts and stops a single processbeat instance on this system
-#
+#!/bin/sh
+## Pavan K tambabathula
+## Processbeat service for RPM Build
+## v1.2.0 06/18/2019
 
-### BEGIN INIT INFO
-# Provides:          processbeat
-# Description:       Processbest is a shipper part of the Elastic Community Beats
-#                    family. Please see: https://www.elastic.co/guide/en/beats/libbeat/master/community-beats.html
-### END INIT INFO
+APP_NAME="processbeat"
+USER="root"
+GROUP="$USER"
+APP_DIR="/usr/share/processbeat/bin"
+KWARGS=""
+LOG_DIR="/var/log/processbeat"
+PID_DIR="/var/run"
+PID_FILE="$PID_DIR/$APP_NAME.pid"
 
+###############
 
+USAGE="Usage: $0 {start|stop|restart|status} [--force]"
+FORCE_OP=false
 
-PATH=/usr/bin:/sbin:/bin:/usr/sbin
-export PATH
-
-[ -f /etc/sysconfig/processbeat ] && . /etc/sysconfig/processbeat
-pidfile=${PIDFILE-/var/run/processbeat.pid}
-agent=${BEATS_AGENT-/usr/share/processbeat/bin/processbeat}
-#args="-c /etc/processbeat/processbeat.yml -path.home /usr/share/processbeat -path.config /etc/processbeat -path.data /var/lib/processbeat -path.logs /var/log/processbeat"
-args="-c /etc/processbeat/processbeat.yml -e "
-test_args="-e test config"
-beat_user="${BEAT_USER:-root}"
-wrapper="/usr/share/processbeat/bin/processbeat"
-wrapperopts="-r / -n -p $pidfile"
-user_wrapper="su"
-user_wrapperopts="$beat_user -c"
-RETVAL=0
-
-# Source function library.
-. /etc/rc.d/init.d/functions
-
-# Determine if we can use the -p option to daemon, killproc, and status.
-# RHEL < 5 can't.
-if status | grep -q -- '-p' 2>/dev/null; then
-    daemonopts="--pidfile $pidfile"
-    pidopts="-p $pidfile"
+if [ "$(id -u)" != "0" ]; then
+   echo "This script must be run as root" 1>&2
+   exit 1
 fi
 
-if command -v runuser >/dev/null 2>&1; then
-    user_wrapper="runuser"
-fi
-
-[ "$beat_user" != "root" ] && wrapperopts="$wrapperopts -u $beat_user"
-
-test() {
-	$user_wrapper $user_wrapperopts "$agent $args $test_args"
+pid_file_exists() {
+    [ -f "$PID_FILE" ]
 }
 
-start() {
-    echo -n $"Starting processbeat: "
-	test
-	if [ $? -ne 0 ]; then
-		echo
-		exit 1
-	fi
-    daemon $daemonopts $wrapper $wrapperopts -- $agent $args
-    RETVAL=$?
-    echo
-    return $RETVAL
+get_pid() {
+    echo "$(cat "$PID_FILE")"
 }
 
-stop() {
-    echo -n $"Stopping processbeat: "
-    killproc $pidopts $wrapper
-    RETVAL=$?
-    echo
-    [ $RETVAL = 0 ] && rm -f ${pidfile}
+is_running() {
+    PID="$(get_pid)"
+    [ -d /proc/$PID ]
 }
 
-restart() {
-	test
-	if [ $? -ne 0 ]; then
-		return 1
-	fi
-    stop
-    start
+start_it() {
+    echo "Starting $APP_NAME ..."
+    echo "cd $APP_DIR
+        if [ $? -ne 0 ]; then
+          exit
+        fi
+        set -a
+        /usr/share/processbeat/bin/processbeat -path.home /usr/share/processbeat -path.config /etc/processbeat -path.data /var/lib/processbeat -path.logs /var/log/processbeat &
+        echo \$! > $PID_FILE" | sudo -i -u $USER
+        echo "$APP_NAME started with pid $(get_pid)"
 }
 
-rh_status() {
-    status $pidopts $wrapper
-    RETVAL=$?
-    return $RETVAL
+stop_process() {
+    PID=$(get_pid)
+    echo "Killing process $PID"
+    kill $PID
+    wait $PID 2>/dev/null
 }
 
-rh_status_q() {
-    rh_status >/dev/null 2>&1
+remove_pid_file() {
+    echo "Removing pid file"
+    rm -f "$PID_FILE"
 }
+
+start_app() {
+    if pid_file_exists
+    then
+        if is_running
+        then
+            PID=$(get_pid)
+            echo "$APP_NAME already running with pid $PID"
+            exit 1
+        else
+            echo "$APP_NAME stopped, but pid file exists"
+            if [ $FORCE_OP = true ]
+            then
+                echo "Forcing start anyways"
+                remove_pid_file
+                start_it
+            fi
+        fi
+    else
+        start_it
+    fi
+}
+
+stop_app() {
+    if pid_file_exists
+    then
+        if is_running
+        then
+            echo "Stopping $APP_NAME ..."
+            stop_process
+            remove_pid_file
+            echo "$APP_NAME stopped"
+        else
+            echo "$APP_NAME already stopped, but pid file exists"
+            if [ $FORCE_OP = true ]
+            then
+                echo "Forcing stop anyways ..."
+                remove_pid_file
+                echo "$APP_NAME stopped"
+            else
+                exit 1
+            fi
+        fi
+    else
+        echo "$APP_NAME already stopped, pid file does not exist"
+        exit 1
+    fi
+}
+
+
+status_app() {
+    if pid_file_exists
+    then
+        if is_running
+        then
+            PID=$(get_pid)
+            echo "$APP_NAME running with pid $PID"
+        else
+            echo "$APP_NAME stopped, but pid file exists"
+        fi
+    else
+        echo "$APP_NAME stopped"
+    fi
+}
+
+case "$2" in
+    --force)
+        FORCE_OP=true
+    ;;
+
+    "")
+    ;;
+
+    *)
+        echo $USAGE
+        exit 1
+    ;;
+esac
+
 
 case "$1" in
     start)
-        start
+        start_app
     ;;
+
     stop)
-        stop
+        stop_app
     ;;
+
     restart)
-        restart
+        stop_app
+        start_app
     ;;
-    condrestart|try-restart)
-        rh_status_q || exit 0
-        restart
-    ;;
+
     status)
-        rh_status
+        status_app
     ;;
+
     *)
-        echo $"Usage: $0 {start|stop|status|restart|condrestart}"
+        echo $USAGE
         exit 1
+    ;;
 esac
 
-exit $RETVAL
