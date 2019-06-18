@@ -1,13 +1,12 @@
 # Processbeat
 
-Welcome to Processbeat
-
 Processbeat provide status of process for defined list.
 
 Example status for running process
 
 PROCESS=kibana STATUS=RUNNING USER=kibana PID=1389 CPU%=0.4 MEM%=0.8 VIRT=1377700 RES=272008 STARTDATE=May 20 16:44:20 COMMAND=/usr/share/kibana/bin/../node/bin/node --no-warnings --max-http-header-size=65536 /usr/share/kibana/bin/../src/cli -c /etc/kibana/kibana.yml 
 
+PROCESS=java STATUS=STOPPED
 
 # Setup project
 
@@ -21,8 +20,7 @@ Ensure that this folder is at the following location:
 * [Golang](https://golang.org/dl/) 1.7
 
 ### Init Project
-To get running with Processbeat and also install the
-dependencies, run the following command:
+To get running with Processbeat and also install the dependencies, run the following command
 
 ```
 make setup
@@ -30,11 +28,15 @@ make setup
 
 It will create a clean git history for each major step. Note that you can always rewrite the history if you wish before pushing your changes.
 
-To push Processbeat in the git repository, run the following commands:
+  [Setup Readme](https://github.com/pawankt/processbeat/blob/master/SETUPREADME.md) for more information.
+
+### Clone
+
+To clone Processbeat from the git repository, run the following commands:
 
 ```
-git remote set-url origin https://github.com/pawankt/processbeat
-git push origin master
+mkdir -p ${GOPATH}/src/github.com/pawankt/processbeat
+git clone https://github.com/pawankt/processbeat ${GOPATH}/src/github.com/pawankt/processbeat
 ```
 
 For further development, check out the [beat developer guide](https://www.elastic.co/guide/en/beats/libbeat/current/new-beat.html).
@@ -45,7 +47,7 @@ To build the binary for Processbeat run the command below. This will generate a 
 in the same directory with the name processbeat.
 
 ```
-make
+make build
 ```
 
 
@@ -100,26 +102,23 @@ To clean up the build directory and generated artifacts, run:
 make clean
 ```
 
-
-### Clone
-
-To clone Processbeat from the git repository, run the following commands:
-
-```
-mkdir -p ${GOPATH}/src/github.com/pawankt/processbeat
-git clone https://github.com/pawankt/processbeat ${GOPATH}/src/github.com/pawankt/processbeat
-```
-
-
-For further development, check out the [beat developer guide](https://www.elastic.co/guide/en/beats/libbeat/current/new-beat.html).
-
-
 ## Packaging
 
 The beat frameworks provides tools to crosscompile and package your beat for different platforms. This requires [docker](https://www.docker.com/) and vendoring as described above. To build packages of your beat, run the following command:
 
 ```
-make release
+make package
 ```
 
 This will fetch and create all images required for the build process. The whole process to finish can take several minutes.
+
+### RPM build
+
+This will create rpm packages incase docker not supports your environment, not able to run make package.
+
+```
+cd ${GOPATH}/src/github.com/pawankt/processbeat
+rpmbuild -ba ~/rpmbuild/SPECS/processbeat.spec
+```
+
+
