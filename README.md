@@ -28,7 +28,7 @@ make setup
 
 It will create a clean git history for each major step. Note that you can always rewrite the history if you wish before pushing your changes.
 
-  [Setup Readme](https://github.com/pawankt/processbeat/blob/master/SETUPREADME.md) for more information.
+ For more info refer [Setup Readme](https://github.com/pawankt/processbeat/blob/master/SETUPREADME.md)
 
 ### Clone
 
