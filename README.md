@@ -5,7 +5,8 @@ Processbeat provide status of process for defined list.
 Example status 
 
 ```
-PROCESS=kibana STATUS=RUNNING USER=kibana PID=1389 CPU%=0.4 MEM%=0.8 VIRT=1377700 RES=272008 STARTDATE=May 20 16:44:20 COMMAND=/usr/share/kibana/bin/../node/bin/node --no-warnings --max-http-header-size=65536 /usr/share/kibana/bin/../src/cli -c /etc/kibana/kibana.yml 
+PROCESS=kibana STATUS=RUNNING USER=kibana PID=1389 CPU%=0.4 MEM%=0.8 VIRT=1377700 RES=272008 STARTDATE=May 20 16:44:20 
+COMMAND=/usr/share/kibana/bin/../node/bin/node --no-warnings --max-http-header-size=65536 /usr/share/kibana/bin/../src/cli -c /etc/kibana/kibana.yml 
 
 PROCESS=java STATUS=STOPPED
 ```
