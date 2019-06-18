@@ -34,6 +34,10 @@ chmod +x %{buildroot}%{_bindir}/processbeat
 
 ## Add Processbeat binary to /usr/share
 %{__install} -d -m 755 %{buildroot}/usr/share/%{name}/
+mv LICENSE.txt %{buildroot}/usr/share/%{name}/
+mv NOTICE.txt %{buildroot}/usr/share/%{name}/
+mv README.md %{buildroot}/usr/share/%{name}/
+## Add notice files to /usr/share/%{name}/bin
 %{__install} -d -m 755 %{buildroot}/usr/share/%{name}/bin
 mv processbeat %{buildroot}/usr/share/%{name}/bin
 
@@ -58,14 +62,14 @@ mv processbeat.service %{buildroot}/etc/init.d/processbeat
 %{_bindir}/%{name}
 %dir /etc/%{name}/
 %config(noreplace) /etc/%{name}/*
-%dir /etc/init.d
+#%dir /etc/init.d
 %doc /etc/init.d/*
 %dir /usr/share/%{name}
 %doc /usr/share/%{name}/*
 %dir /var/lib/%{name}
 
 %changelog
-* Wed Jun 12 2019 Pavan K Tambabathula 1.1.0
+* Wed Jun 12 2019 Pavan K Tambabathula 1.2.0
 - Added custom processbeat.yml configuration
 
 EOF
