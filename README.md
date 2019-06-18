@@ -2,11 +2,13 @@
 
 Processbeat provide status of process for defined list.
 
-Example status for running process
+Example status 
 
+```
 PROCESS=kibana STATUS=RUNNING USER=kibana PID=1389 CPU%=0.4 MEM%=0.8 VIRT=1377700 RES=272008 STARTDATE=May 20 16:44:20 COMMAND=/usr/share/kibana/bin/../node/bin/node --no-warnings --max-http-header-size=65536 /usr/share/kibana/bin/../src/cli -c /etc/kibana/kibana.yml 
 
 PROCESS=java STATUS=STOPPED
+```
 
 # Setup project
 
@@ -114,7 +116,7 @@ This will fetch and create all images required for the build process. The whole 
 
 ### RPM build
 
-This will create rpm packages incase docker not supports your environment, not able to run make package.
+This will create rpm packages incase docker not supports in your environment, not able to run make package.
 
 ```
 cd ${GOPATH}/src/github.com/pawankt/processbeat
