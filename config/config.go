@@ -7,8 +7,9 @@ import "time"
 
 type Config struct {
 	Period time.Duration `config:"period"`
-        Process  *[]string     `config:"process"`
-//        Process string `config:"process"`
+        //Process string `config:"process"`
+        //Process  *[]string     `config:"process"`
+        Process []string
 }
 
 var DefaultConfig = Config{
