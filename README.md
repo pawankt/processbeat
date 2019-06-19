@@ -29,6 +29,8 @@ To run Processbeat with debugging output enabled, run:
 
   [Releases](https://github.com/pawankt/processbeat/tree/master/rpmbuild/RPMS)
 
+Install processbeat using rpm or yum.
+
 ```
 rpm -i <processbeat-version.rpm>
 rpm -qa | grep processbeat
