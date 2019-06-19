@@ -122,7 +122,7 @@ This will fetch and create all images required for the build process. The whole 
 
 ### RPM build
 
-This will create rpm packages incase docker not supports in your environment, not able to run make package.
+This will create rpm packages incase docker not supports in your environment and not able to run make package.
 
 ```
 cd ${GOPATH}/src/github.com/pawankt/processbeat
