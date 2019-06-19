@@ -14,48 +14,10 @@ PROCESS=java STATUS=STOPPED
 
 # Setup project
 
-Ensure that this folder is at the following location:
-`${GOPATH}/src/github.com/pawankt/processbeat`
-
-## Getting Started with Processbeat
-
-### Requirements
-
-* [Golang](https://golang.org/dl/) 1.7
-
-### Init Project
-To get running with Processbeat and also install the dependencies, run the following command
-
-```
-make setup
-```
-
-It will create a clean git history for each major step. Note that you can always rewrite the history if you wish before pushing your changes.
-
- For more info refer [Setup Readme](https://github.com/pawankt/processbeat/blob/master/SETUPREADME.md)
-
-### Clone
-
-To clone Processbeat from the git repository, run the following commands:
-
-```
-mkdir -p ${GOPATH}/src/github.com/pawankt/processbeat
-git clone https://github.com/pawankt/processbeat ${GOPATH}/src/github.com/pawankt/processbeat
-```
-
-For further development, check out the [beat developer guide](https://www.elastic.co/guide/en/beats/libbeat/current/new-beat.html).
-
-### Build
-
-To build the binary for Processbeat run the command below. This will generate a binary
-in the same directory with the name processbeat.
-
-```
-make build
-```
+  [Setup Readme](https://github.com/pawankt/processbeat/blob/master/SETUPREADME.md)
 
 
-### Run
+### Local execution
 
 To run Processbeat with debugging output enabled, run:
 
@@ -63,66 +25,54 @@ To run Processbeat with debugging output enabled, run:
 ./processbeat -c processbeat.yml -e -d "*"
 ```
 
+### Beat installation
 
-### Test
-
-To test Processbeat, run the following command:
-
-```
-make testsuite
-```
-
-alternatively:
-```
-make unit-tests
-make system-tests
-make integration-tests
-make coverage-report
-```
-
-The test coverage is reported in the folder `./build/coverage/`
-
-### Update
-
-Each beat has a template for the mapping in elasticsearch and a documentation for the fields
-which is automatically generated based on `fields.yml` by running the following command.
+  [Releases](https://github.com/pawankt/processbeat/tree/master/rpmbuild/RPMS)
 
 ```
-make update
+rpm -i <processbeat-version.rpm>
+rpm -qa | grep processbeat
+
+```
+
+### Beat configuration
+
+Add process list and other logstash configurations.
+
+Example config in /etc/processbeat/processbeat.yml
+
+```
+processbeat:
+  # Defines how often an event is sent to the output
+  period: 30s
+
+  # process to be monitor
+  process:
+    - kibana
+    - java
+
+fields:
+  topic: processbeat
+  elk_node_type: logstash
+  env: test
 ```
 
 
-### Cleanup
+## Running processbeat
 
-To clean  Processbeat source code, run the following command:
+Service configuration will be added automatically through rpm. Following commands to operate beat.
 
-```
-make fmt
-```
-
-To clean up the build directory and generated artifacts, run:
+Log file will be created under /var/log/processbeat.
 
 ```
-make clean
+service processbeat start
+service processbeat stop
+service processbeat restart
+service processbeat status
 ```
 
-## Packaging
+### Limitations
 
-The beat frameworks provides tools to crosscompile and package your beat for different platforms. This requires [docker](https://www.docker.com/) and vendoring as described above. To build packages of your beat, run the following command:
-
-```
-make package
-```
-
-This will fetch and create all images required for the build process. The whole process to finish can take several minutes.
-
-### RPM build
-
-This will create rpm packages incase docker not supports in your environment, not able to run make package.
-
-```
-cd ${GOPATH}/src/github.com/pawankt/processbeat
-rpmbuild -ba ~/rpmbuild/SPECS/processbeat.spec
-```
+processbeat suppoorts for unix systems, future development planned for windows process monitoring.
 
 
