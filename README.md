@@ -75,6 +75,6 @@ service processbeat status
 
 ### Limitations
 
-processbeat suppoorts for unix systems, future development planned for windows process monitoring.
+processbeat currently supporting for unix systems, future development planned for windows process monitoring.
 
 
