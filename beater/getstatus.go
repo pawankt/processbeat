@@ -16,7 +16,8 @@ func (bt *Processbeat) GetProcessStats(procName string) string {
     processCmd := "ps -eo user,pid,%cpu,%mem,vsz,rss,lstart,cmd " +
                   "| grep -i " + procName +
                   " | grep -v \"color=auto\" " +
-                  " | awk '{ print \"STATUS=RUNNING \" \"USER=\"$1,\"PID=\"$2,\"CPU%=\"$3,\"MEM%=\"$4,\"VIRT=\"$5,\"RES=\"$6,\"STARTDATE=\"$8,$9,$10,\"COMMAND=\"$12FS$13FS$14FS$15FS$16FS$17FS$18FS$19 }' " +
+                  //" | awk '{ print \"STATUS=RUNNING \" \"USER=\"$1,\"PID=\"$2,\"CPU%=\"$3,\"MEM%=\"$4,\"VIRT=\"$5,\"RES=\"$6,\"STARTDATE=\"$8,$9,$10,\"COMMAND=\"$12FS$13FS$14FS$15FS$16FS$17FS$18FS$19 }' " +
+                  " | awk '{ print \"STATUS=RUNNING \" \"USER=\"$1,\"PID=\"$2,\"CPU%=\"$3,\"MEM%=\"$4,\"VIRT=\"$5,\"RES=\"$6,\"STARTDATE=\"$8,$9,$10,\"COMMAND=\"substr($0, index($0,$12)) }' " +
                   " | grep -v \"grep -i\" "
    
     logp.Debug("processbeat", "Running process status command for %s", procName)
