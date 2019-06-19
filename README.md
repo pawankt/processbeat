@@ -14,7 +14,7 @@ PROCESS=java STATUS=STOPPED
 
 # Setup project
 
-  [Setup Readme](https://github.com/pawankt/processbeat/blob/master/SETUPREADME.md)
+  [Setup Readme](https://github.com/pawankt/processbeat/blob/master/README-SETUP.md)
 
 
 ### Local execution
