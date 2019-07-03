@@ -38,9 +38,9 @@ mkdir -p ${GOPATH}/src/github.com/elastic
 git clone https://github.com/elastic/beats ${GOPATH}/src/github.com/elastic/beats
 ```
 
-### Clone
+### Clone the processbeat
 
-To clone Processbeat from the git repository, run the following commands
+To clone beat from the git repository, run the following commands
 
 ```
 mkdir -p ${GOPATH}/src/github.com/pawankt/processbeat
@@ -55,7 +55,7 @@ To build the binary for Processbeat run the command below. This will generate a 
 in the same directory with the name processbeat.
 
 ```
-make build
+make build / mage build
 ```
 
 
