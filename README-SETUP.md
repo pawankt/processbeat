@@ -126,7 +126,8 @@ This will create rpm packages incase docker not supports in your environment and
 
 ```
 cd ${GOPATH}/src/github.com/pawankt/processbeat
-rpmbuild -ba ~/rpmbuild/SPECS/processbeat.spec
+rpmbuild -ba ~/rpmbuild/SPECS/processbeat.spec (or)
+rpmbuild --define '_topdir ${GOPATH}src/github.com/pawankt/processbeat/rpmbuild' -ba processbeat.spec
 ```
 
 
